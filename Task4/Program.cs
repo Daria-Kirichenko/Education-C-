@@ -2,9 +2,10 @@
 
 Console.WriteLine("Введите ваше число:");
 int number = Convert.ToInt32(Console.ReadLine());
-
-//int i = number % 2;
-for(number = 1; <= number; number++)
+for(int i = 1; i <= number; i++)
 {
-    Console.WriteLine(number % 2);
+    if(i == i % 2)
+    {
+        Console.WriteLine(number);
+    }
 }
